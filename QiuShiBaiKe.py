@@ -6,9 +6,9 @@ import re
 '''url = "https://www.zhihu.com/login/phone_num"
 data = {
 	"_xsrf": "32353036656463332d343062372d343032612d393862382d616663366633393164373265",
-	"password": "TianTian562017",
+	"password": "",
 	"captcha_type": "cn",
-	"phone_num": "18302101720"
+	"phone_num": "
 }
 postdata = urllib.parse.urlencode(data).encode('utf-8')
 req = urllib.request.Request(url, postdata)
